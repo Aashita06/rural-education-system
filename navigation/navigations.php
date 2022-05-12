@@ -37,7 +37,7 @@
   /*margin-left: 5px;*/
 }
 #footer > footer { 
-    background-color: rgb(0, 67, 200);
+    background-color: rgb(30, 3, 64);
   min-height: 50px;
   padding: 10px; 
   border-top: 1px solid #ddd;
@@ -97,30 +97,30 @@ clear: both;
 
 #lesson {
     top: 180px;
-    background-color: rgb(0, 67, 200)
+    background-color: rgb(30, 3, 64)
 }
 
 #exercise {
     top:260px;
-    background-color: rgb(0, 81, 242);
+    background-color: rgb(30, 3, 64);
 }
 
 #download {
     top: 340px;
-    background-color: rgb(33, 107, 255);
+    background-color: rgb(30, 3, 64);
 }
 
 #about {
     top: 420px;
-    background-color: rgb(79, 138, 255);
+    background-color: rgb(30, 3, 64);
 }
 #login {
     top: 500px;
-    background-color: rgb(137, 176, 255);
+    background-color: rgb(30, 3, 64);
 }
 
 #title-header {
-  background-color: rgb(0, 67, 200); 
+  background-color: rgb(30, 3, 64); 
   border-bottom: 1px solid #ddd; 
   height: 130px;  
   padding: 10px 0px;
@@ -137,7 +137,10 @@ clear: both;
 <section id="title-header">
   <div class="title">  
      
-      <p class="subtitle"> RURAL EDUCATION SYSTEM</p> 
+      <h1 class="subtitle"style="width: 50%;object-fit: contain;height: 50%;margin-top: 30px;
+  margin-bottom: 10px;
+  margin-right: 150px;
+  margin-left: 340px;" > RURAL EDUCATION SYSTEM</h1> 
   </div>
 </section>  
 <section id="navigation">
@@ -147,8 +150,13 @@ clear: both;
     <a href="<?php echo web_root; ?>index.php?q=download" id="download">Download <i class="fa fa-download pull-right"></i></a>
     <a href="<?php echo web_root; ?>index.php?q=about" id="about">About Us <i class="fa fa-info-circle pull-right"></i></a>  
      <a href="logout.php" id="login">Logout <i class="fa fa-sign-out pull-right"></i></a> 
+   
   </div>
-</section>  
+  
+</section> 
+<div>
+  
+</div> 
 
 <section id="content"> 
 <?php check_message(); ?> 

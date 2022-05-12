@@ -41,12 +41,12 @@ if (isset($_SESSION['StudentID'])) {
         </div>
          
         <form class="login100-form validate-form" action="" method="POST"> 
-          <span class="login100-form-title">
-            Member Login 
+          <span class="login100-form-title" >
+            Student Login 
           </span>
 
           <div class="wrap-input100 validate-input" >
-            <input class="input100" type="text" name="user_email" placeholder="Username">
+            <input class="input100" type="text" name="user_email" placeholder="username">
             <span class="focus-input100"></span>
             <span class="symbol-input100">
               <i class="fa fa-user" aria-hidden="true"></i>

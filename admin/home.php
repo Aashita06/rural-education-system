@@ -21,7 +21,7 @@
 </style>
 
 <div class="container">
-  <h3>Administrator Panel:Welcome <?php echo $_SESSION['NAME'];?></h3>
+  <h3>Teacher Panel:Welcome <?php echo $_SESSION['NAME'];?></h3>
  
   <div class="row"> 
     <div class="col-md-6 secondrow">
@@ -47,27 +47,9 @@
   </div>
     <div class="row">
        <?php if($_SESSION['TYPE']=="Administrator"){ ?>
-    <div class="col-md-6 secondrow">
-      <div class="row">
-        <a href="<?php echo web_root; ?>admin/modules/user/index.php" title="Manage Users"> 
-        <div class="imgstretch">
-          <img src="<?php echo web_root; ?>admin/adminMenu/images/user.png"> 
-         </div>
-         <label>Manage Users</label>
-        </a>
-      </div>
-    </div>
+    
   <?php } ?>
-    <div class="col-md-6 secondrow">
-      <div class="row">
-        <a href="<?php echo web_root; ?>admin/modules/report/index.php" title="Reports"> 
-        <div class="imgstretch">
-          <img src="<?php echo web_root; ?>admin/adminMenu/images/report1.png"> 
-         </div>
-         <label>Reports</label>
-        </a>
-      </div>
-    </div> 
+    
   </div>
   
 </div>

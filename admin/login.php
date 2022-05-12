@@ -59,7 +59,7 @@ require_once("../include/initialize.php");
       <div class="wrap-login100">
         <form class="login100-form validate-form" action="" method="POST">
           <span class="login100-form-title p-b-43">
-            Login to continue
+            Teacher Login
           </span>
           
           <p><?php echo check_message()?>;</p>
@@ -116,13 +116,13 @@ require_once("../include/initialize.php");
         </form>
         
         <div class="login100-more" style="background: #0037a4f5;">
-          <img src="adminMenu/images/login1.png" style="object-fit: contain" >
+         <center> <img src="adminMenu/images/login1.png" style="object-fit: contain; height:500px;width:500px;border-radius:20%;margin-top:100px"  ></center>
         </div>
       </div>
     </div>
   </div>
-  
-  
+
+
 
   
   
